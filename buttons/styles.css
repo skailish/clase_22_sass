@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center; }
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px; }
+
+h1 {
+  color: #6585ab;
+  margin: 20px;
+  padding: 0; }
+
+.button {
+  text-align: center;
+  font-size: large;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ccc;
+  border: none;
+  padding: 14px 40px;
+  margin-right: 5px;
+  margin-bottom: 20px; }
+  .button:hover {
+    background-color: #ddd; }
+  .button:active {
+    background-color: #fff; }
+  .button.f1 {
+    background-color: green; }
+    .button.f1:hover {
+      background-color: lightgreen; }
+    .button.f1:active {
+      background-color: #fff; }
+  .button.f2 {
+    background-color: yellow; }
+    .button.f2:hover {
+      background-color: lightyellow; }
+    .button.f2:active {
+      background-color: #fff; }
+  .button.f3 {
+    background-color: red; }
+    .button.f3:hover {
+      background-color: pink; }
+    .button.f3:active {
+      background-color: #fff; }
+  .button.siz1 {
+    width: 100px; }
+    .button.siz1:hover {
+      background-color: lightgreen; }
+    .button.siz1:active {
+      background-color: #fff; }
+  .button.siz2 {
+    width: 120px; }
+    .button.siz2:hover {
+      background-color: lightyellow; }
+    .button.siz2:active {
+      background-color: #fff; }
+  .button.siz3 {
+    width: 140px; }
+    .button.siz3:hover {
+      background-color: pink; }
+    .button.siz3:active {
+      background-color: #fff; }
+  .button.siz1 {
+    width: 100px; }
+    .button.siz1:hover {
+      background-color: lightgreen; }
+    .button.siz1:active {
+      background-color: #fff; }
+  .button.siz2 {
+    width: 120px; }
+    .button.siz2:hover {
+      background-color: lightyellow; }
+    .button.siz2:active {
+      background-color: #fff; }
+  .button.sty1 {
+    border-radius: 5px; }
+    .button.sty1:hover {
+      background-color: lightgreen; }
+    .button.sty1:active {
+      background-color: #fff; }
+  .button.sty2 {
+    border: 2px solid #6585ab;
+    background-color: white;
+    color: black; }
+    .button.sty2:hover {
+      background-color: lightyellow; }
+    .button.sty2:active {
+      background-color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
