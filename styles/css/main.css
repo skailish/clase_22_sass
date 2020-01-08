@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f8;
+  background: linear-gradient(to right, #f3f4f8 0%, #d4dae6 100%);
+}
+body .main-container {
+  display: flex;
+  padding: 70px 30px;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 80%;
+  max-width: 90%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  min-height: 100%;
+  padding: 70px 30px;
+  border-radius: 10px 0 0 10px;
+  background: #f2959e;
+  background: linear-gradient(to bottom, #f2959e 0%, #e73827 100%);
+  color: white;
+}
+aside a {
+  color: white;
+}
+aside header {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.user-name {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.main-section {
+  min-width: 60%;
+  min-height: 80%;
+  padding: 70px 30px;
+  border-radius: 0 10px 10px 0;
+  background-color: #f3f4f8;
+}
+.main-section .section-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 50px;
+}
+.main-section .section-header div {
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-section .section-header .main-section-header-primary-info {
+  text-align: left;
+  margin-left: 10px;
+}
+.main-section .section-header .main-section-header-secondary-info {
+  text-align: right;
+  margin-right: 10px;
+}
+.main-section .main-section-article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-section .main-section-article {
+  width: calc(100% / 3 - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.main-section-article-username {
+  color: #ea7a90;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.user-profile-img {
+  width: 70px;
+  height: 70px;
+}
+
+.main-section-article-avatar {
+  width: 55px;
+  height: 55px;
+}
+
+/*# sourceMappingURL=main.css.map */

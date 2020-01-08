@@ -1,0 +1,22 @@
+* {    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $main-font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(243,244,248,1);
+    background: linear-gradient(to right, rgba(243,244,248,1) 0%, rgba(212,218,230,1) 100%);
+
+    .main-container {
+        display: flex;
+        padding: $content-padding;
+        justify-content: center;
+        align-items: stretch;
+        min-height: 80%;
+        max-width: 90%;
+    }
+}
